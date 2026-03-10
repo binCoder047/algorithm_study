@@ -27,4 +27,49 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-.trae/skills/java-coding-helper/SKILL.md
+.trae/
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Logs ###
+*.log
+logs/
+
+### Temporary Files ###
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+### Build Tools ###
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+### Package Files ###
+*.zip
+*.tar.gz
+*.rar
+
+### IDE ###
+.idea/
+*.iml
+*.iws
+*.ipr
